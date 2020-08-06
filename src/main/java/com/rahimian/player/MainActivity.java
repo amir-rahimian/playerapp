@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RadioGroup videoOrMusic;
     private SeekBar playSeek , volumeSeek ;
     private VideoView videoView ;
-    private ImageView imgmusic,voloco,stop, loop;
+    private ImageView imgmusic, voloco,stop, loop;
     private ConstraintLayout ctrlMedia;
     //----------------------------------
     enum state {video,music};
