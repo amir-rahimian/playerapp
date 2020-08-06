@@ -21,7 +21,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener , SeekBar.OnSeekBarChangeListener {
-    //UI COMPONENTS
+    //UI COMPONENTS ARE:
     private Button play ;
     private TextView name ;
     private RadioGroup videoOrMusic;
