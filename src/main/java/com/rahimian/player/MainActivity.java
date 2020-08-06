@@ -109,8 +109,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 LinearLayout.LayoutParams params  = (LinearLayout.LayoutParams) ctrlMedia.getLayoutParams();
-                if (name.getText().toString().equals(" MUSIC is playing ")){onClick(stop);}
-                if (name.getText().toString().equals(" VIDEO is playing ")){onClick(stop);}
+                if (name.getText().toString().equals(" MUSIC Is Playing ")){onClick(stop);}
+                if (name.getText().toString().equals(" VIDEO Is Playing ")){onClick(stop);}
 
                 playSeek.setProgress(0);
                 if (checkedId==R.id.ismusic)//<MUSIC>
